@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/homeScreenText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Home Screen"
+        android:textColor="#0000FF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/voiceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="No Input Yet !!!"
+        android:textColor="#00FF00"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/voiceToText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click and Speak" />
+
+</LinearLayout>

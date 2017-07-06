@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/mobileView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter URL"
+        android:textColor="#0000FF" />
+
+    <Button
+        android:id="@+id/mobileViewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile View" />
+
+    <TextView
+        android:id="@+id/voiceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Welcome to Auto Cafe !!!"
+        android:textColor="#00FF00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tapOnMic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Please tap on the mic on Bottom Right Corner and start intracting"
+        android:textColor="#154C8A"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Don't forget to switch Bluetooth and Location Services on if you want to use new feature (Smart Cafe)"
+        android:textColor="#154C8A"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@android:drawable/ic_btn_speak_now" />
+    </RelativeLayout>
+</LinearLayout>
